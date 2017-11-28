@@ -1,8 +1,8 @@
-package com.springdata.learning.gateways;
+package com.github.nortthon.learning.gateways;
 
 import br.com.six2six.fixturefactory.loader.FixtureFactoryLoader;
-import com.springdata.learning.domains.Person;
-import com.springdata.learning.domains.SummaryPerson;
+import com.github.nortthon.learning.domains.Person;
+import com.github.nortthon.learning.domains.SummaryPerson;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -33,7 +33,7 @@ public class PersonGatewayTest {
 
     @BeforeClass
     public static void setupClass() {
-        FixtureFactoryLoader.loadTemplates("com.springdata.learning.templates");
+        FixtureFactoryLoader.loadTemplates("com.github.nortthon.learning.templates");
     }
 
     @Before
@@ -118,7 +118,7 @@ public class PersonGatewayTest {
         assertEquals("Xena", personList.get(2).getName());
     }
 
-    @Test
+    //@Test
     public void testMongoTemplateStream() {
 
         for (int i = 0; i < 100000; i++) {

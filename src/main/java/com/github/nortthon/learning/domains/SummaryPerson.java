@@ -1,4 +1,4 @@
-package com.springdata.learning.domains;
+package com.github.nortthon.learning.domains;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,11 +1,11 @@
-package com.springdata.learning;
+package com.github.nortthon.learning;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
 @SpringBootApplication
-@EnableMongoRepositories(basePackages = "com.springdata.learning.gateways")
+@EnableMongoRepositories(basePackages = "com.github.nortthon.learning.gateways")
 public class Application {
 
     public static void main(String[] args) {

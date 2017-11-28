@@ -1,6 +1,6 @@
-package com.springdata.learning.gateways;
+package com.github.nortthon.learning.gateways;
 
-import com.springdata.learning.domains.Person;
+import com.github.nortthon.learning.domains.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

@@ -1,9 +1,9 @@
-package com.springdata.learning.templates;
+package com.github.nortthon.learning.templates;
 
 import br.com.six2six.fixturefactory.Fixture;
 import br.com.six2six.fixturefactory.Rule;
 import br.com.six2six.fixturefactory.loader.TemplateLoader;
-import com.springdata.learning.domains.Person;
+import com.github.nortthon.learning.domains.Person;
 
 public class PersonTemplates implements TemplateLoader {
 
